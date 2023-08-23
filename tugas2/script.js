@@ -18,7 +18,7 @@ const character = {
 
 function drawCharacter() {
   const characterImage = new Image();
-  characterImage.src = "gambar/mobil.png"; // Replace with the path to your character image
+  characterImage.src = "gambar/mobil.png";
 
   ctx.drawImage(characterImage, character.x, character.y, character.width, character.height);
 }
