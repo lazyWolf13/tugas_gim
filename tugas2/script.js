@@ -46,8 +46,8 @@ function update() {
     character.isJumping = true;
   }
 
-  // Apply gravity
-  character.ySpeed += 0.5;
+  //gravity
+  character.ySpeed += 0.2;
   character.ySpeed = Math.min(character.ySpeed, character.maxYSpeed);
   character.y += character.ySpeed;
 
